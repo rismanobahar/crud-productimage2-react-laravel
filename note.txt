@@ -1,0 +1,9 @@
+BACKEND:
+
+1. composer create-product laravel/laravel backend
+2. php artisan make:model Product -m 
+3. php artisan migrate
+4. php artisan make:controller ProductController -r
+5. php artisan storage:link
+
+
